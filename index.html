@@ -7,10 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Tipografia -->
 	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -27,7 +25,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img id="navlogo" src="img/logobco.png" alt="" height="30" width="auto">
+                    <img id="navlogo" src="image/light-bulbnav.png" alt="" height="30" width="auto">
                 </a>
             </div>
 
@@ -41,7 +39,7 @@
                         <a class="page-scroll" href="#trabajos">Trabajos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#busca">Contacto</a>
+                        <a class="page-scroll" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -54,10 +52,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-12 col-sm-12 text-center">
-					<h1><a href="http://www.birkof.ro"><em>D</em>aniel <em>S</em>tancu</a></h1>
+					<img src="image/light-bulb4.png" class="logo">
 				    <h1 class="title">Desarrolladora Web</h1>
 				  	<!-- texto animado -->
-				    <h2 class="write"><span>i code stuff.</span></h2>
+				    <h2 class="write"><span>Front-end</span></h2>
 				</div>
 			</div>
 			<!-- logo -->
@@ -67,9 +65,37 @@
 	<section id="bio">
 		<div class="container">
 			<div class="row">
-				<h1 class="title-tag">< Bio ></h1>
-				<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est minus ducimus dignissimos aspernatur repudiandae molestiae doloremque voluptate inventore debitis repellat. Sequi vero, distinctio molestias harum velit molestiae quasi sit quos.</p>
+				<div class="col-md-6">
+					<h1>Hola!</h1>
+					<p class="text">Soy Natalia Torrejón y hace 5 meses comencé la aventura de estudiar desarrollo web en laboratoria.</p>
+					<p class="text">Estudié también previamente fotografía, marketing digital y redes sociales.</p>
+					<p class="text">En mi tiempo libre me gusta escuchar mis bandas de rock favoritas y compartir tiempo con mis mascotas.</p>
+				</div>
+				<div class="col-md-6 text-center">
+					<img src="image/collage.png">
+				</div>
 			</div>
+		</div>
+	</section>
+	<section id="habilidades" class="hidden">
+		<div class="container">
+			<duv class="row">
+				<div class="col-md-6">
+					<h3>Desarrollo</h3>
+					<h4>HTML</h4>
+					<h4>Bootstrap</h4>
+					<h4>CSS</h4>
+					<h4>SASS</h4>
+					<h4>Javascript</h4>
+					<h4>Jquery</h4>
+					<h4>Git</h4>
+				</div>
+				<div class="col-md-6">
+					<h3>Diseño</h3>
+					<h4>Photoshop</h4>
+					<h4>InDesign</h4>
+				</div>
+			</duv>
 		</div>
 	</section>
 
@@ -79,30 +105,89 @@ http://wrapbootstrap.com/preview/WB0915R81
 	<section id="trabajos">
 		<div class="container">
 			<div class="row">
-				<h1 class="title-tag">< Trabajos ></h1>
-				<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est minus ducimus dignissimos aspernatur repudiandae molestiae doloremque voluptate inventore debitis repellat. Sequi vero, distinctio molestias harum velit molestiae quasi sit quos.</p>
 				<div class="col-md-4">
-					
+					<div class="job text-center">
+						<a href="http://natuchasca.github.io/meetup/">
+							<img src="image/ip2-meetup.jpg">
+							<h4><b>Meet The Front</b></h4>
+							<p>Sitio ganador realizado en equipo para hackaton Meetup laboratoria.</p>
+						</a>
+					</div>
 				</div>
 				<div class="col-md-4">
-					
+					<div class="job text-center">
+						<a href="http://natuchasca.github.io/todoapp">
+							<img src="image/ip1-todoapp.jpg">
+							<h4><b>ToDo App</b></h4>
+							<p>Una aplicación para organizar tareas realizada con Javascript, HTML y CSS/Sass</p>
+						</a>
+					</div>
 				</div>
 				<div class="col-md-4">
-					
+					<div class="job text-center">
+						<a href="https://natuchasca.github.io/reloj/">
+							<img src="image/reloj.jpg">
+							<h4><b>Reloj Digital</b></h4>
+							<p>Reloj con HTML/Css y trabajando con javascript y jquery</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="job text-center">
+						<a href="https://natuchasca.github.io/Dashgum/">
+							<img src="image/dashgum.jpg">
+							<h4><b>Dashgum theme</b></h4>
+							<p>Trabajando con Bootstrap, CSS y utilizando media queries para visualización responsive.</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="job text-center">
+						<a href="http://natuchasca.github.io/LoveBlog/">
+							<img src="image/loveblog.jpg">
+							<h4><b>Love Blog</b></h4>
+							<p>Layout maquetado con HTML, CSS y Bootstrap.</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="job text-center">
+						<a href="https://natuchasca.github.io/whatsapp-js/">
+							<img src="image/whatsapp.jpg">
+							<h4><b>WhatsApp</b></h4>
+							<p>Incorporando Javascript, Jquery, HTML y CSS/Sass</p>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-		
-		<i class="fa fa-github" aria-hidden="true"></i>
-		<i class="fa fa-codepen" aria-hidden="true"></i>
-		
-
+	<section id="contacto">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<img src="image/light-bulbnav.png" class="logo-bottom">
+					<h3><b>natuxalee@gmail.com</b></h3>
+					<a href="https://github.com/natuchasca">
+						<i class="fa fa-github fa-5x" aria-hidden="true"></i>
+					</a>
+					<a href="http://codepen.io/natucha/#">
+						<i class="fa fa-codepen fa-5x" aria-hidden="true"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/nataliatorrejonbravo">
+						<i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-12 col-sm-12 text-center">
-					<p>© Natalia Torrejón 2016</p>
+					<p>© Portafolio by Natalia Torrejón 2016</p>
 				</div>
 			</div>
 		</div>
@@ -110,8 +195,8 @@ http://wrapbootstrap.com/preview/WB0915R81
 
 
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="js/main.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

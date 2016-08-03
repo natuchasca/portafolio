@@ -90,7 +90,7 @@ a, p {
 #bio {
   height: 631px;
   height: 100%;
-  padding: 100px 20px;
+  padding: 80px 20px;
   width: 100%;
 }
 
@@ -205,7 +205,7 @@ a {
 
 #trabajos,
 #contacto {
-  padding: 100px 20px;
+  padding: 80px 20px;
   width: 100%;
   height: auto;
 }
@@ -218,7 +218,8 @@ a {
   box-shadow: 10px 10px 0px -1px rgba(0,0,0,0.12);
 }
 .job img {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   margin: 10px auto;
   border-radius: 5px;
@@ -228,15 +229,16 @@ a {
   margin: 0 auto;
 }
 
-hr {
-  border-top: 1px dashed #8c8b8b;
-}
-
 #contacto i {
   margin: 10px;
 }
+#contacto i:hover {
+  color: #5cd9d0;
+}
+
 img.logo-bottom {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: auto;
 }
 
@@ -249,6 +251,11 @@ footer {
 
 
 
-@media (max-width:768px) {
-
+@media (max-width:480px) {
+  .title {
+    font-size: 2em;
+  }
+  h2.write {
+    font-size: 3em;
+  }
 }

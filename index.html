@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="#top">
                     <img id="navlogo" src="image/light-bulbnav.png" alt="" height="30" width="auto">
                 </a>
             </div>
@@ -168,7 +168,7 @@ http://wrapbootstrap.com/preview/WB0915R81
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<img src="image/light-bulbnav.png" class="logo-bottom">
+					<img src="image/light-bulbnav.png" class="logo-bottom responsive-img">
 					<h3><b>natuxalee@gmail.com</b></h3>
 					<a href="https://github.com/natuchasca">
 						<i class="fa fa-github fa-5x" aria-hidden="true"></i>
@@ -197,6 +197,14 @@ http://wrapbootstrap.com/preview/WB0915R81
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script>
+	$(document).on('click','.navbar-collapse.in',function(e) {
+	    if( $(e.target).is('a') ) {
+	        $(this).collapse('hide');
+	    }
+	});
+	</script>
 	<script src="js/main.js"></script>
 </body>
 </html>

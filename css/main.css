@@ -56,6 +56,10 @@ a, p {
   background-color: #222222;
 }
 @media (min-width: 768px) {
+  .navbar-default .navbar-toggle:focus, 
+  .navbar-default .navbar-toggle:hover {
+    background-color: #5cd9d0;
+  }
   .navbar-default {
     background-color: #222222;}
   .navbar-default .navbar-header .navbar-brand {
@@ -225,7 +229,9 @@ a {
   border-radius: 5px;
 }
 .job p {
-  width: 280px;
+  max-width: 270px;
+  font-size: 14px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -252,10 +258,30 @@ footer {
 
 
 @media (max-width:480px) {
+  #bio,
+  #contacto {
+    padding: 70px 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  #trabajos {
+    padding: 60px 20px;
+    width: 100%;
+    height: auto;
+  }
+
   .title {
-    font-size: 2em;
+    font-size: 23px;
   }
   h2.write {
     font-size: 3em;
+  }
+  #contacto h3 {
+    font-size: 20px;
+  }
+  #contacto i {
+    margin: 10px;
+    font-size: 50px;
   }
 }

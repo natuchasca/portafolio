@@ -7,7 +7,7 @@
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
-        event.preventDefault();
+        //event.preventDefault();
     });
 
     // Highlight the top nav as scrolling occurs
